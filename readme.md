@@ -18,3 +18,4 @@ Este proyecto es una página web generadora de paletas de colores aleatorias
 ## Demo
 
 
+#proyecto-integrador
