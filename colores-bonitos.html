@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Color Palette</title>
+    <link rel="stylesheet" href="./css/colores-bonitos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Palette Generator</h1>
+        <div class="controls">
+            <button id="generate" class="primary-btn">Generate New</button>
+            <select id="card-count">
+                <option value="6">6 Colors</option>
+                <option value="8">8 Colors</option>
+                <option value="9">9 Colors</option>
+            </select>
+            <button id="toggle-format">Format: HEX</button>
+        </div>
+        <div id="palette" class="palette"></div>
+        <div id="toast" class="toast">Copied to clipboard!</div>
+    </div>
+    <script src="./js/colores-bonitos.js"></script>
+</body>
+</html>
